@@ -7,16 +7,16 @@
     "build-js": "NODE_ENV=production esbuild ./static/src/js/app.js --bundle --minify --outfile=./static/dist/app.js"
   },
   "devDependencies": {
-    "@tailwindcss/forms": "^0.2.1",
-    "autoprefixer": "^10.0.1",
-    "cssnano": "^4.1.10",
-    "esbuild": "^0.8.33",
-    "postcss": "^8.1.7",
-    "postcss-cli": "^8.2.0",
-    "tailwindcss": "^2.0.1"
+    "@tailwindcss/forms": "^0.4.0",
+    "autoprefixer": "^10.4.2",
+    "cssnano": "^5.0.15",
+    "esbuild": "^0.14.11",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0",
+    "tailwindcss": "^3.0.15"
   },
   "dependencies": {
-    "@hotwired/turbo": "^7.0.0-beta.4",
-    "stimulus": "^2.0.0"
+    "@hotwired/turbo": "^7.1.0",
+    "stimulus": "^3.0.1"
   }
 }
